@@ -12,7 +12,7 @@ for i in range (000,1000):
 	print(r.status_code)
 	if(r.status_code == 200):
 		print(" found room number " + str(i))
-		urllib.urlretrieve(url , "/home/seintern/Desktop/pdfs/student_UB_room_number_"+str(i)+".pdf")
+		urllib.urlretrieve(url , "UB_room_number_"+str(i)+".pdf")
 
 
 
